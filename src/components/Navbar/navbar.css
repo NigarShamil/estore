@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.navbar_end {
+    display: flex;
+}
+
+.cart_count {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 1rem;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+}
+
+.currency {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.currency::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    background-color: #5ECE7B;
+}
+
+.currency option {
+    background-color: #fff;
+    color: #333;
+}
+
+.currency option:hover {
+    background-color: #5ECE7B;
+    color: #fff;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
