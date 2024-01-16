@@ -1,0 +1,22 @@
+.card{
+    width: 55%;
+    border: 1px solid lightskyblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.green_shop{
+    display: none;
+}
+.card:hover .green_shop{
+    display: block;
+}
+
+.availibility{
+    border: 1px solid gray;
+    width: 100%;
+    background-color: lightslategray;
+    top: 50%;
+    padding: 10px 0px;
+}
