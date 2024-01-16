@@ -16,11 +16,7 @@ export default function Navbar() {
                     <img src={Logo} alt="logo" title="logo" />
                 </div>
                 <div className="navbar_end">
-<<<<<<< HEAD
                 <select className="currency" defaultValue={"USD"}>
-=======
-                    <select className="currency" defaultValue={"USD"}>
->>>>>>> 8b1f17f98a8112fb2085e9a2c0d8da8c0da65d1c
                         <option value="USD" >USD $</option>
                         <option value="GBP">GBP £</option>
                         <option value="AUD">AUD A$</option>
